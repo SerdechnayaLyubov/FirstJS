@@ -1,11 +1,33 @@
-function func(param) {
-    const captured = param;
-    function res(x) { return x + captured; }
+//начало приложения
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    provat: false
+};
+ const a  = prompt("Один из последних просмотернных фильмов?", ""),
+        b = prompt("На сколько оцените его?", ""),
+        с = prompt("Один из последних просмотернных фильмов?", ""),
+        d = prompt("На сколько оцените его?", "");
 
-    return res;
-}
-let f1 = func(100);
-console.log(f1(10)); // 110
+        personalMovieDB.movies[a] = b;
+        personalMovieDB.movies[c] = d;
+
+        console.log(personalMovieDB);
+
+
+
+
+// function func(param) {
+//     const captured = param;
+//     function res(x) { return x + captured; }
+
+//     return res;
+// }
+// let f1 = func(100);
+// console.log(f1(10)); // 110
 
 
 // /////////////двоичный код одного числа....................
