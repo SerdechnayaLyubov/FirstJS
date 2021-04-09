@@ -2,26 +2,26 @@
 ///////////Lesson 19 Callback функции
 
 
-function first() {
-    setTimeout(function(){console.log('1');}, 500)
-}
-function second(){
-    console.log('2');
-}
+// function first() {
+//     setTimeout(function(){console.log('1');}, 500)
+// }
+// function second(){
+//     console.log('2');
+// }
 
-first();
-second();
+// first();
+// second();
 
-function learnJS(leng, callback){
-    console.log(`Я учу ${leng}`);
-    callback();
-}
+// function learnJS(leng, callback){
+//     console.log(`Я учу ${leng}`);
+//     callback();
+// }
 
-function done (){
-    console.log(`Я прошел этот урок! УРА!`);
-}
+// function done (){
+//     console.log(`Я прошел этот урок! УРА!`);
+// }
 
-learnJS('JavaScript', done);
+// learnJS('JavaScript', done);
 
 ///////////Lesson 18 Практика по функциям
 
